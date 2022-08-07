@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  display: flex;
+}
+
+#textForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 50px;
+}
+#textForm #form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#textForm #form input {
+  margin-bottom: 30px;
+  height: 30px;
+}
+#textForm #form textarea {
+  margin-bottom: 30px;
+}
+#textForm button {
+  width: 100px;
+  height: 50px;
+}/*# sourceMappingURL=posts.css.map */
